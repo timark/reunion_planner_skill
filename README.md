@@ -1,9 +1,9 @@
-# Reunion Planner Skill
+# Reunion Planner AI Agent Skill
 
-A Codex skill for planning a group reunion weekend from Google My Maps venue
-exports. The skill researches hotels and pubs, enriches the original map data
-with ratings and venue details, and produces CSVs plus a single-file HTML report
-that the group can browse and shortlist from.
+An AI agent skill for planning a group reunion weekend from Google My Maps
+venue exports. The skill researches hotels and pubs, enriches the original map
+data with ratings and venue details, and produces CSVs plus a single-file HTML
+report that the group can browse and shortlist from.
 
 This repository currently contains the skill definition and sample/input data
 for a 50th anniversary Manchester Polytechnic Architecture reunion.
@@ -12,7 +12,7 @@ for a 50th anniversary Manchester Polytechnic Architecture reunion.
 
 ```text
 .
-├── reunion-planner-SKILL.md   # Codex skill definition and workflow
+├── reunion-planner-SKILL.md   # AI agent skill definition and workflow
 └── data/
     ├── 50- Hotels.csv         # Google My Maps hotel export, 45 rows
     └── 50- Pubs.csv           # Google My Maps pub export, 49 rows
@@ -20,7 +20,7 @@ for a 50th anniversary Manchester Polytechnic Architecture reunion.
 
 ## What The Skill Does
 
-The skill guides an AI assistant through a full venue research workflow:
+The skill guides an AI agent through a full venue research workflow:
 
 - Parse hotel and pub CSVs exported from Google My Maps.
 - Validate venue geography against the reunion's travel constraints.
@@ -103,9 +103,9 @@ with open("hotels_enriched.csv", "w", newline="", encoding="utf-8") as f:
 
 ## Using The Skill
 
-Use `reunion-planner-SKILL.md` as the skill definition in a Codex-compatible
+Use `reunion-planner-SKILL.md` as the skill definition in an AI-agent-compatible
 skills directory, or open it directly as the working instructions for an AI
-assistant.
+agent.
 
 At runtime, provide:
 
