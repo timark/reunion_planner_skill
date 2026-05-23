@@ -81,6 +81,22 @@ reunion_report.html
 The enriched CSVs are designed to be re-imported into Google My Maps while also
 including structured columns for ratings, facilities, prices, and source notes.
 
+## Report Screenshots
+
+Sample views from the generated `reunion_report.html`:
+
+### Hotels Table View
+
+![Hotels section of reunion report](assets/report_hotels.jpg)
+
+### Pubs Table View
+
+![Pubs section of reunion report](assets/report_pubs.jpg)
+
+### Map View
+
+![Map section of reunion report](assets/report_map.jpg)
+
 ## CSV Writing Requirement
 
 The skill requires enriched CSVs to be written with Python's `csv` module using
